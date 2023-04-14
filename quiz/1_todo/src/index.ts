@@ -3,7 +3,7 @@ interface Todo {
   title: string;
   done: boolean;
 }
-
+// 시작
 let todoItems: Todo[];
 
 // api
