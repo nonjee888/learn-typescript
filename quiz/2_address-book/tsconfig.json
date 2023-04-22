@@ -3,9 +3,11 @@
     "allowJs": true,
     "checkJs": true,
     "target": "es5",
-    "lib": ["es2015", "dom", "dom.iterable"],
+    "lib": ["es2015", "dom", "dom.iterable", "ESNext"],
     "noImplicitAny": true,
-    "strict": true
+    "strict": true,
+    "noEmitOnError": true
   },
-  "include": ["./src/**/*"]
+  "files": ["index.ts"],
+  "include": ["./src/**/*", "index.ts"]
 }
